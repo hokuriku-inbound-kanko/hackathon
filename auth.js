@@ -1,8 +1,8 @@
 import { serveDir } from "https://deno.land/std@0.224.0/http/file_server.ts";
 
-// https://hokuriku-inbound-kanko−hackathon.deno.dev/
-const USERNAME = "hokuriku";
-const PASSWORD = "inbound";
+// https://hokuriku-inbound.deno.dev/
+const USERNAME = "kanko";
+const PASSWORD = "Et82bECsLxwLcFKv";
 
 Deno.serve((req) => {
   const auth = req.headers.get("Authorization");
